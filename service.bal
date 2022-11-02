@@ -13,7 +13,7 @@ string[] recordArray=[];
 # A service representing a network-accessible API
 # bound to port `9090`.
 service / on new http:Listener(9090) {
-
+//comment
     # A resource for generating greetings
     # + return - string name with hello message or error
     resource function get githubinfo() returns string[]|error {
